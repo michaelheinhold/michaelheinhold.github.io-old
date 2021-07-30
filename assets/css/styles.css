@@ -157,24 +157,40 @@ header nav ul li a:hover {
 /* END PROJECTS SECTION */
 
 /* CONTACT ME SECTION */
-/* for .contact-me styles look in about me */
+/* for extra .contact-me styles look in about me */
 .contact-me h3 {
-    margin: 50px auto;
+    margin: 30px auto;
     text-align: center;
     width: 80%;
     padding: 50px 0 0 0;
+    font-size: 38px;
+}
+
+.contact-me p {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
 }
 
 .socialm {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 40%;
-    margin: 0 auto;
+    width: 35%;
+    margin: 20px auto;
+}
+
+.socialm a{
+    text-decoration: none;
+    color: #fff
 }
 
 .socialm img {
     height: 50px;
+}
+
+.email, .github, .linkedin, .facebook {
+    text-align: center;
 }
 
 /* END CONTACT ME SECTION */
