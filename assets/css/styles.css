@@ -303,7 +303,7 @@ header nav ul li a:hover {
 /* DEVICES 575PX AND SMALLER*/
 @media screen and (max-width: 575px) {
     header nav {
-        width: 50%;
+        width: 60%;
     }
 
     .project-links {
@@ -315,21 +315,14 @@ header nav ul li a:hover {
     }
 
     .project-links h3 {
-        width: 95%-8px;
+        width: 95%;
     }
     .project-links img {
-        width: 95%-8px;
+        width: 95%;
         height: 225px;
     }
 
     .socialm {
         width: 100%;
-    }
-}
-
-/* DEVICES 375PX AND SMALLER */
-@media screen and (max-width:376px) {
-    header nav ul li {
-        width: 60%s;
     }
 }
