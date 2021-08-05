@@ -192,14 +192,14 @@ header nav ul li a:hover {
 .run-buddy h3 {
     background-color: #fce138;
     padding: 1px 8px;
-    width: 100%;
+    width: 100%-8px;
     color: #000
 }
 
 .horiseon h3 {
     background-color: #4307e6;
     padding: 1px 8px;
-    width: 100%;
+    width: 100%-8px;
     color: #fff;
 }
 /* END PROJECTS SECTION */
@@ -315,7 +315,7 @@ header nav ul li a:hover {
     }
 
     .project-links h3 {
-        width: 95%;
+        width: 95%-8px;
     }
     .project-links img {
         width: 95%;
