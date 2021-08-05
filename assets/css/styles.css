@@ -37,7 +37,7 @@ header {
 
 header nav {
     margin:  auto 0;
-    width: 25%;
+    width: 35%;
     justify-content: space-between;
 ;
 }
@@ -191,14 +191,14 @@ header nav ul li a:hover {
 
 .run-buddy h3 {
     background-color: #fce138;
-    padding: 1px 0;
+    padding: 1px 8px;
     width: 100%;
     color: #000
 }
 
 .horiseon h3 {
-    background-color: #7510F7;
-    padding: 1px 0;
+    background-color: #4307e6;
+    padding: 1px 8px;
     width: 100%;
     color: #fff;
 }
@@ -224,7 +224,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 35%;
+    width: 50%;
     margin: 20px auto 0 auto;
 }
 
@@ -253,3 +253,76 @@ header nav ul li a:hover {
     padding:10px ;
 }
 /* END FOOTER STYLES */
+
+
+/* MEDIA QUERIES SECTION */
+
+/* DEVICES 980PX AND SMALLER*/
+@media screen and (max-width: 980px) { 
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .project-links {
+        width: 70%;
+    }
+}
+
+/* DEVICES 768PX AND SMALLER*/
+@media screen and (max-width: 768px) {
+    header nav ul li a {
+        font-size: 14px;
+    }
+
+    .intro h1 {
+        font-size: 42px;
+    }
+
+    .intro p {
+        font-size: 22px;
+    }
+
+    .about-me p {
+        font-size: 22px;
+    }
+
+    .project-links {
+        width: 95%;
+    }
+
+    .project-links img {
+        width: 350px;
+        height: 175px;
+    }
+}
+
+.socialm {
+    width: 65%;
+}
+
+/* DEVICES 575PX AND SMALLER*/
+@media screen and (max-width: 575px) {
+    header nav {
+        width: 50%;
+    }
+
+    .project-links {
+        flex-direction: column;
+    }
+
+    .run-buddy, .horiseon {
+        margin: 25px 0;
+    }
+
+    .project-links h3 {
+        width: 95%;
+    }
+    .project-links img {
+        width: 95%;
+        height: 225px;
+    }
+
+    .socialm {
+        width: 100%;
+    }
+}
