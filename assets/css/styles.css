@@ -318,11 +318,18 @@ header nav ul li a:hover {
         width: 95%-8px;
     }
     .project-links img {
-        width: 95%;
+        width: 95%-8px;
         height: 225px;
     }
 
     .socialm {
         width: 100%;
+    }
+}
+
+/* DEVICES 375PX AND SMALLER */
+@media screen and (max-width:376px) {
+    header nav ul li {
+        width: 60%s;
     }
 }
