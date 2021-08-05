@@ -192,14 +192,14 @@ header nav ul li a:hover {
 .run-buddy h3 {
     background-color: #fce138;
     padding: 1px 8px;
-    width: 100%;
+    width: 35%;
     color: #000
 }
 
 .horiseon h3 {
     background-color: #4307e6;
     padding: 1px 8px;
-    width: 100%;
+    width: 35%;
     color: #fff;
 }
 /* END PROJECTS SECTION */
@@ -328,7 +328,7 @@ header nav ul li a:hover {
 }
 
 /* DEVICES UNDER 400PX */
-@media screen and (max-width:400spx) {
+@media screen and (max-width:400px) {
     header {
         margin: 0;
     }
