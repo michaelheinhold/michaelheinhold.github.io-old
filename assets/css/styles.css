@@ -323,6 +323,56 @@ header nav ul li a:hover {
     }
 
     .socialm {
-        width: 100%;
+        width: 95%;
+    }
+}
+
+/* DEVICES UNDER 375PX */
+@media screen and (max-width:376px) {
+    header {
+        margin: 0;
+    }
+
+    .intro h1 {
+        font-size: 38px;
+    }
+
+    .intro p {
+        font-size: 20px;
+    }
+
+    .about-me h1 {
+        font-size: 34px;
+    }
+
+    .about-me p {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    header nav ul li a {
+        width: 60%;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .projects h2 {
+        font-size: 38px;
+    }
+
+    .run-buddy, .horiseon {
+        margin-right: 20px;
+    }
+
+    .project-links h3 {
+        width: 35%;
+    }
+
+    .socialm {
+        width: 70%;
+    }
+
+    .socialm div {
+        width: 50%;
     }
 }
