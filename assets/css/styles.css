@@ -327,8 +327,8 @@ header nav ul li a:hover {
     }
 }
 
-/* DEVICES UNDER 375PX */
-@media screen and (max-width:376px) {
+/* DEVICES UNDER 400PX */
+@media screen and (max-width:400spx) {
     header {
         margin: 0;
     }
