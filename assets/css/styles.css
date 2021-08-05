@@ -150,9 +150,57 @@ header nav ul li a:hover {
 
 .projects h2 {
     font-size: 48px;
-    margin: 0 auto;
+    margin: 40px auto 0 auto;
     width: 80%;
     text-align: center;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 60%;
+    padding: 30px;
+}
+
+.project-links a {
+    text-decoration: none;
+}
+
+.run-buddy, .horiseon {
+    position: relative;
+}
+
+.run-buddy img:hover, .horiseon img:hover {
+    width: 350px;
+    height: 175px;
+}
+
+.project-links img {
+    width: 300px;
+    height: 150px;
+}
+
+.project-links h3 {
+    margin: 0 auto;
+    text-align: left;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+}
+
+.run-buddy h3 {
+    background-color: #fce138;
+    padding: 1px 0;
+    width: 100%;
+    color: #000
+}
+
+.horiseon h3 {
+    background-color: #7510F7;
+    padding: 1px 0;
+    width: 100%;
+    color: #fff;
 }
 /* END PROJECTS SECTION */
 
@@ -177,7 +225,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 35%;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
 }
 
 .socialm a{
@@ -189,8 +237,19 @@ header nav ul li a:hover {
     height: 50px;
 }
 
+.socialm img:hover{
+    height: 55px;
+}
+
 .email, .github, .linkedin, .facebook {
     text-align: center;
 }
 
 /* END CONTACT ME SECTION */
+
+/*FOOTER STYLES */
+.footer {
+    background-color: #7510F7;
+    padding:10px ;
+}
+/* END FOOTER STYLES */
